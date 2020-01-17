@@ -2,3 +2,61 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: grey;;
+}
+
+#navbar-container{
+    background-color: #444;
+    display: flex;
+    padding: 15px 1%;
+    border-bottom: solid orangered 2px;
+    flex-direction: row;
+}
+
+#title, #navbar-list{
+    color: white;
+    flex: 1;
+    
+    
+    
+}
+#navbar-list li{
+    text-align: center;
+    padding: 0px 5px;
+    
+}
+#navbar-list a{
+    text-decoration: none;
+}
+#navbar-list ul{
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    float: right;
+    
+}
+#skills-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px;
+}
+.grid-box{
+    border: solid orangered 2px;
+    border-radius: 5px;
+    width: 25%;
+    background-color: lightgrey;
+    
+    
+}
+.box-title{
+    text-align: center;
+    background-color: #444;
+    border-bottom: solid #333 2px;
+    color: white;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.grid-box p{
+    margin: 15px;
+}
